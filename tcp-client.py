@@ -10,7 +10,7 @@ while True:
     s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     s.connect((IP, TCP_PORT))
     MESSAGE = input('Write to server : ')
-    print("COMPUTER_NETWORK HW SUCCESS")
+    print("COMPUTER_NETWORK HW DONE")
     if(MESSAGE=='q'):
         break
     s.send(MESSAGE.encode('utf-8'))
